@@ -1,2 +1,2 @@
-# set-up-your-first-Custom-Vision-project
-Learn the basics of Custom Vision with this demo
+# Set up your first Custom Vision project
+## Last edited: 11/15/2020
