@@ -84,7 +84,7 @@ In addition to selecting different Project Types, you can also choose a uniqie C
 For my project, I need to be detecting one bird per image so I will be using the Multiclass Classification Type.
 
 <img
-  src="/documentation/classificationType.png"
+  src="/documentation/classificationtype.png"
   alt="Classification Types"
   style="float: left; margin-right: 200px;"
 />
@@ -116,7 +116,7 @@ After that, you can select the photos and input them into Custom Vision. First, 
 After you import your images, there will be a pop-up in Custom Vision for you to tag the batch of images. In my image, you can see that I tagged all of my Anna's Hummingbird images with the tag **anna**. Repeat this step for all your images and tags.
 
 <img
-  src="/documentation/tagImages.png"
+  src="/documentation/tagImages.PNG"
   alt="Image Upload"
   style="float: left; margin-right: 90px;"
 />
@@ -134,7 +134,7 @@ Custom Vision provides two training options: **Quick Training** and **Advanced T
 For my demo, I am choosing the **Quick Training** option. Once you have selected a training type, click **Train**.
 
 <img
-  src="/documentation/train.png"
+  src="/documentation/train.PNG"
   alt="Choose training type"
   style="float: left; margin-right: 90px;"
 />
@@ -146,7 +146,7 @@ Training my hummingbird dataset took approximately 5 minutes. A cool feature abo
 After Custom Vision is completeted training, this chart will appear displaying the **Precision**, **Recall**, and **AP** of your model.
 
 <img
-  src="/documentation/data.png"
+  src="/documentation/data.PNG"
   alt="Test model"
   style="float: left; margin-right: 90px;"
 />
@@ -166,7 +166,7 @@ When you click **Quick Test**, it will open into a pop up. Here, you can test yo
 I uploaded a leftover photo from my Anna's Hummingbird collection which had a 99.9% certainty that it was an Anna's Hummingbird.
 
 <img
-  src="/documentation/quickTest.png"
+  src="/documentation/quickTest.PNG"
   alt="Quick Test"
   style="float: left; margin-right: 90px;"
 />
