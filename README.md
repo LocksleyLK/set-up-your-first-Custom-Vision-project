@@ -36,8 +36,8 @@ Go to customvision.ai and sign in. This will take you to Custom Vision's landing
 To create a new project, we will enter a name and project description. My project is going to be a model that can detect different Washington State hummingbird species. You can use this idea or something else you find interesting. The name I have chosen is **hummingbird-vision** and the description will be **Detect different hummingbird species**.
 
 <img
-  src="/assets/customvisionintro/name.png"
-  alt="New Project Icon"
+  src="/documentation/name.png"
+  alt="Create New Resource Group"
   style="float: left; margin-right: 90px;"
 />
 
@@ -46,8 +46,8 @@ If you already have a resource created, select that. If you don't, click the **c
 To select a Resource Group, select **create new** again. Give your resource a name and choose a Server location. I live in the Seattle area so I chose the location closest to me: West US 2.
 
 <img
-  src="/assets/customvisionintro/createNewResource.png"
-  alt="New Project Icon"
+  src="/documentation/createNewResource.png"
+  alt="Create New Resource"
   style="float: left; margin-right: 90px;"
 />
 
@@ -56,8 +56,8 @@ Click **Create resource group.** Now, we need to choose a Kind, Location, and Pr
 Once your Create New Resource pop-up looks similar to this, click the **Create Resource** button.
 
 <img
-  src="/assets/customvisionintro/createResource.png"
-  alt="New Project Icon"
+  src="/documentation/createResource.png"
+  alt="Create Resource"
   style="float: left; margin-right: 90px;"
 />
 
@@ -70,8 +70,8 @@ Now, we're back to the first pop up. Custom Vision allows you to create two diff
 For my project, I need to be detecting whole images so I will be using the Classification Project Type.
 
 <img
-  src="/assets/customvisionintro/projectType.png"
-  alt="New Project Icon"
+  src="/documentation/projectType.png"
+  alt="Project Types"
   style="float: left; margin-right: 200px;"
 />
 
@@ -84,24 +84,24 @@ In addition to selecting different Project Types, you can also choose a uniqie C
 For my project, I need to be detecting one bird per image so I will be using the Multiclass Classification Type.
 
 <img
-  src="/assets/customvisionintro/classificationType.png"
-  alt="New Project Icon"
+  src="/documentation/classificationType.png"
+  alt="Classification Types"
   style="float: left; margin-right: 200px;"
 />
 
 Next up is selecting different domains. There are some common domains that you can specifically train for. Washington State hummingbirds does not fall into any of the provided categories so I'll be using the **General** domain.
 
 <img
-  src="/assets/customvisionintro/domain.png"
-  alt="New Project Icon"
+  src="/documentation/domain.png"
+  alt="Domains"
   style="float: left; margin-right: 200px;"
 />
 
 Once your Create new project page looks like this, click **create project**.
 
 <img
-  src="/assets/customvisionintro/createNewProject.png"
-  alt="New Project Icon"
+  src="/documentation/createNewProject.png"
+  alt="Create new project"
   style="float: left; margin-right: 90px;"
 />
 
@@ -116,8 +116,8 @@ After that, you can select the photos and input them into Custom Vision. First, 
 After you import your images, there will be a pop-up in Custom Vision for you to tag the batch of images. In my image, you can see that I tagged all of my Anna's Hummingbird images with the tag **anna**. Repeat this step for all your images and tags.
 
 <img
-  src="/assets/customvisionintro/tagImages.png"
-  alt="New Project Icon"
+  src="/documentation/tagImages.png"
+  alt="Image Upload"
   style="float: left; margin-right: 90px;"
 />
 
@@ -134,8 +134,8 @@ Custom Vision provides two training options: **Quick Training** and **Advanced T
 For my demo, I am choosing the **Quick Training** option. Once you have selected a training type, click **Train**.
 
 <img
-  src="/assets/customvisionintro/train.png"
-  alt="New Project Icon"
+  src="/documentation/train.png"
+  alt="Choose training type"
   style="float: left; margin-right: 90px;"
 />
 
@@ -146,8 +146,8 @@ Training my hummingbird dataset took approximately 5 minutes. A cool feature abo
 After Custom Vision is completeted training, this chart will appear displaying the **Precision**, **Recall**, and **AP** of your model.
 
 <img
-  src="/assets/customvisionintro/data.png"
-  alt="New Project Icon"
+  src="/documentation/data.png"
+  alt="Test model"
   style="float: left; margin-right: 90px;"
 />
 
@@ -166,8 +166,8 @@ When you click **Quick Test**, it will open into a pop up. Here, you can test yo
 I uploaded a leftover photo from my Anna's Hummingbird collection which had a 99.9% certainty that it was an Anna's Hummingbird.
 
 <img
-  src="/assets/customvisionintro/quickTest.png"
-  alt="New Project Icon"
+  src="/documentation/quickTest.png"
+  alt="Quick Test"
   style="float: left; margin-right: 90px;"
 />
 
