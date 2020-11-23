@@ -155,11 +155,11 @@ The **Precision** graph represents how likely your model is to be correct when i
 
 The **Recall** graph represents the percentage of correct tags your model predicted.
 
-Finally, the **AP** graph represents your model's combined precision and recall at different degrees.
+Finally, the **AP** graph represents your model's combined precision and recall at different probability thresholds.
 
 I always aim to be above a 90% in all three categories. If I am not, I will add more images to further train within Custom Vision.
 
-If you have hit the 90% threshold (and even if you haven't), we can try a **Quick Test**. At the top right corner of the screen, right next to the **Train** button, you will see a **Quick Test** button.
+If you have hit 90% (and even if you haven't), we can try a **Quick Test**. At the top right corner of the screen, right next to the **Train** button, you will see a **Quick Test** button.
 
 When you click **Quick Test**, it will open into a pop up. Here, you can test your model for accuracy. You can either input an image URL or browse your local files.
 
