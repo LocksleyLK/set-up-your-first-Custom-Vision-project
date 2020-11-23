@@ -1,5 +1,5 @@
 # Set up your first Custom Vision project
-## Last edited: 11/15/2020
+## Last edited: 11/23/2020
 
 Custom Vision is an awesome tool from Azure. In this article, we're going to cover what it is, how it works, and how you can start using it.
 
