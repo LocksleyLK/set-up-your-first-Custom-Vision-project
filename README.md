@@ -28,7 +28,7 @@ Custom Vision is an awesome tool from Azure. In this article, we're going to cov
 Go to customvision.ai and sign in. This will take you to Custom Vision's landing page. Select new project.
 
 <img
-  src="/assets/customvisionintro/newproject.png"
+  src="/documentation/newproject.png"
   alt="New Project Icon"
   style="float: left; margin-right: 90px;"
 />
